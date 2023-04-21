@@ -62,7 +62,7 @@ The services should now be running and registered with the Eureka server. You ca
 
 The API endpoints are secured using JWT authentication. To access the endpoints, you will need to first register via this endpoint:
 
-``` http://localhost:8085/api/v1/auth/register ```
+`http://localhost:8085/api/v1/auth/register `
 
 A JWT token would be generated and returned to you at registration. Copy the token and inclued it in the `Authorization` header of your subsequent requests.
 
