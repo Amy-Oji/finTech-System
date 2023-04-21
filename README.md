@@ -25,8 +25,9 @@ The system is built using the following technologies:
 - Spring Security & JWT: Authentication and authorization.
 - Spring Cloud Gateway: An API Gateway for routing requests.
 - Eureka: A service discovery and registration server.
-- Posgres: A relational database for persisting account and transaction data.
+- Postgres: A relational database for data.
 - Kafka: A message broker for sending notifications to users.
+- Maven: A build automation tool used for managing dependencies and building the projects
 
 ## Getting Started
 
@@ -40,7 +41,7 @@ To get started with the system, follow these steps:
 
 1. Clone these repositories and navigate to the project directory.
 
-- [Users Service](https://github.com/Amy-Oji/users-microService)
+- [Users Service](https:// .com/Amy-Oji/users-microService)
 - [Accounts Service](https://github.com/Amy-Oji/Account-MicroService) 
 - [Transactions Service](https://github.com/Amy-Oji/Transactions-MicroService)
 - [Notifications Service](https://github.com/Amy-Oji/NotificationMicroService)
