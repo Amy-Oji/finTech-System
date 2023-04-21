@@ -37,7 +37,7 @@ To run this project, you will need:
 Java 17 or later
 Apache Maven 3.6 or later.
 
-To get started with the system, follow these steps:
+### To get started with the system, follow these steps:
 
 1. Clone these repositories and navigate to the project directory.
 
