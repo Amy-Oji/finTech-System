@@ -59,7 +59,7 @@ The services should now be running and registered with the Eureka server. You ca
 
 - Accounts Service: http://localhost:8085/api/v1/accounts
 - Transactions Service: http://localhost:8085/api/v1/transactions
-- Users Service: http://localhost:8085/api/v1/users
+- Users Service: http://localhost:8085/api/v1/users, ***/auth
 - Notifications Service: http://localhost:8085/api/v1/notifications
 
 The API endpoints are secured using JWT authentication. To access the endpoints, you will need to first register via this endpoint:
