@@ -11,6 +11,7 @@ The system is designed using a microservice architecture, which allows for a sca
 - __Users Service:__ Handles user authentication and authorization.
 - __Notifications Service:__ Sends notifications to users for account and transaction events.
 - __Discovery Service:__ Provides service discovery and registration.
+- __API Gateway:__ The API Gateway acts as a central entry point for accessing the microservices. It routes requests to the appropriate microservices and provides load balancing. Additionally, it can also handle cross-cutting concerns such as authentication and authorization using JSON Web Tokens (JWT).
 
 The services are designed to be loosely coupled, allowing for independent deployment and scaling of each service. The services communicate with each other using REST APIs and are secured using JWT authentication.
 
@@ -21,8 +22,8 @@ In addition, the system uses an API Gateway to route requests to the appropriate
 The system is built using the following technologies:
 
 - Spring Boot: Provides a framework for building microservices with Java.
-- Spring Cloud Gateway: An API Gateway for routing requests.
 - Spring Security & JWT: Authentication and authorization.
+- Spring Cloud Gateway: An API Gateway for routing requests.
 - Eureka: A service discovery and registration server.
 - Posgres: A relational database for persisting account and transaction data.
 - Kafka: A message broker for sending notifications to users.
