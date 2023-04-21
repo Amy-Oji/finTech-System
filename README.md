@@ -6,11 +6,11 @@ This is a microservice-based fintech system that provides a set of REST APIs for
 
 The system is designed using a microservice architecture, which allows for a scalable and flexible system. The system consists of the following microservices:
 
-- Accounts Service: Handles account creation, retrieval, and deletion.
-- Transactions Service: Handles transaction creation and retrieval.
-- Users Service: Handles user authentication and authorization.
-- Notifications Service: Sends notifications to users for account and transaction events.
-- Discovery Service: Provides service discovery and registration.
+- __Accounts Service:__ Handles account creation, retrieval, and deletion.
+- __Transactions Service:__ Handles transaction creation and retrieval.
+- __Users Service:__ Handles user authentication and authorization.
+- __Notifications Service:__ Sends notifications to users for account and transaction events.
+- __Discovery Service:__ Provides service discovery and registration.
 
 The services are designed to be loosely coupled, allowing for independent deployment and scaling of each service. The services communicate with each other using REST APIs and are secured using JWT authentication.
 
