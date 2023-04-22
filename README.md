@@ -41,7 +41,7 @@ Apache Maven 3.6 or later.
 
 1. Clone these repositories and navigate to the project directory.
 
-- [Users Service](https:// .com/Amy-Oji/users-microService)
+- [Users Service](https://github.com/Amy-Oji/users-microService)
 - [Accounts Service](https://github.com/Amy-Oji/Account-MicroService) 
 - [Transactions Service](https://github.com/Amy-Oji/Transactions-MicroService)
 - [Notifications Service](https://github.com/Amy-Oji/NotificationMicroService)
@@ -57,9 +57,9 @@ Apache Maven 3.6 or later.
 
 The services should now be running and registered with the Eureka server. You can access the APIs of each service through the API Gateway by sending requests to the following endpoints:
 
+- Users Service: http://localhost:8085/api/v1/users, ***/auth
 - Accounts Service: http://localhost:8085/api/v1/accounts
 - Transactions Service: http://localhost:8085/api/v1/transactions
-- Users Service: http://localhost:8085/api/v1/users, ***/auth
 - Notifications Service: http://localhost:8085/api/v1/notifications
 
 The API endpoints are secured using JWT authentication. To access the endpoints, you will need to first register via this endpoint:
